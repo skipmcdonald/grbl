@@ -29,7 +29,8 @@
 #define config_h
 
 // Default settings. Used when resetting EEPROM. Change to desired name in defaults.h
-#define DEFAULTS_SHERLINE_5400
+//#define DEFAULTS_SHERLINE_5400
+#define DEFAULTS_SHAPEOKO_2
 
 // Serial baud rate
 #define BAUD_RATE 115200
@@ -211,7 +212,7 @@
 // electrical interference on the signal cables from external sources. It's recommended to first
 // use shielded signal cables with their shielding connected to ground (old USB/computer cables 
 // work well and are cheap to find) and wire in a low-pass circuit into each limit pin.
-// #define ENABLE_SOFTWARE_DEBOUNCE // Default disabled. Uncomment to enable.
+#define ENABLE_SOFTWARE_DEBOUNCE // Default disabled. Uncomment to enable.
 
 // ---------------------------------------------------------------------------------------
 
